@@ -1,0 +1,290 @@
+@media only screen and (min-width: 250px) and (max-width: 600px) {
+
+    .menu {
+        padding: 20px !important;
+        justify-content: space-between !important;
+    }
+
+    .menu-2 {
+        display: none !important;
+    }
+
+    .logo-1 {
+        width: 100px !important;
+        margin-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .logo-2 {
+        width: 0 !important;
+    }
+
+    .menu label {
+        display: initial !important;
+    }
+
+    .menu .navbar {
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        background-color: #181818 !important;
+        display: none !important;
+    }
+
+    .menu .navbar ul li {
+        width: 100% !important;
+    }
+
+    #menu:checked~.navbar {
+        display: initial !important;
+    }
+
+    .inicio {
+        padding-top: 1px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .header-content {
+        padding: 20px !important;
+        margin-top: 100px !important;
+        padding-bottom: 0% !important;
+    }
+
+    .slider {
+        flex-direction: column !important;
+    }
+
+    .slider-txt {
+        margin-left: 0 !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin-bottom: 50px !important;
+    }
+
+    .slider-txt h1 {
+        font-size: 40px !important;
+    }
+
+    .slider-txt p {
+        font-size: 14px !important;
+    }
+
+    .btn-1 {
+        padding: 10px 25px !important;
+        font-size: 14px !important;
+    }
+
+    .slider-img {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .slider-img img {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-right: 0px !important;
+    }
+
+    .slider iframe {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 200px !important;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+    }
+
+    .swiper-pagination {
+        bottom: 10px !important;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets,
+    .swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -5px !important;
+    }
+
+    .tabs {
+        padding: 5px !important;
+    }
+
+    .tabs label {
+        width: 33% !important;
+    }
+
+    .products .swiper-slide {
+        width: 100% !important;
+    }
+
+    .info {
+        width: 90% !important;
+        flex-direction: column !important;
+    }
+
+    .info-img {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .info-img img {
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 25px !important;
+    }
+
+    .info-txt {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .info-txt h2 {
+        font-size: 40px !important;
+    }
+
+    .info-txt p {
+        font-size: 16px !important;
+    }
+
+    .btn-1 {
+        font-size: 16px !important;
+    }
+
+    .horario {
+        padding: 30px !important;
+        text-align: center !important;
+    }
+
+    .horario-info h2 {
+        font-size: 40px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .horario-txt {
+        flex-direction: column !important;
+    }
+
+    .socials {
+        justify-content: center !important;
+    }
+
+    .social img {
+        margin: 8px 0 0 0 !important;
+    }
+
+    .footer {
+        padding: 30px !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .links h4 {
+        margin: 25px 0px 10px 0px !important;
+    }
+
+    .nosotros {
+        padding-top: 60px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .slider-txt-2 {
+        width: 80% !important;
+        margin-top: 50px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .slider-txt-2 h1 {
+        font-size: 40px !important;
+    }
+
+    .slider-txt-2 p {
+        font-size: 16px !important;
+    }
+
+    .servicios {
+        padding-top: 20px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .servicios-info {
+        width: 90% !important;
+        flex-direction: column !important;
+    }
+
+    .redes {
+        padding-top: 20px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .redes-info {
+        width: 90% !important;
+        flex-direction: column !important;
+    }
+
+    .redes-info iframe {
+        width: 100% !important;
+        height: 217px !important;
+    }
+
+    .mapas {
+        padding: 50px 20px !important;
+    }
+
+    .mapas-info h2 {
+        font-size: 40px !important;
+        margin-bottom: 30px !important;
+    }
+
+    .mapas-txt {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .CLHip {
+        width: 350px !important;
+        height: 50px !important;
+        text-align: center;
+        border-radius: 50px !important;
+        font-weight: 700 !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    .CLFrame {
+        width: 100% !important;
+        /* Ajustar el ancho del mapa al 100% */
+        max-width: none !important;
+        /* Anular el ancho máximo */
+        margin: 20px 0 !important;
+        /* Agregar espacio entre el mapa y la información */
+    }
+
+    .CLFrame iframe {
+        width: 100% !important;
+        height: 100% !important; /* Establece la altura que desees */
+    }
+
+    .info-sede {
+        padding: 20px !important;
+        /* Ajustar el padding */
+        margin-top: 10px !important;
+        /* Agregar espacio superior */
+    }
+
+    .info-sede p {
+        font-size: 16px !important;
+        /* Reducir el tamaño del texto */
+    }
+
+    .contacto {
+        padding-top: 20px !important;
+    }
+
+    .intranet {
+        padding-top: 90px !important;
+    }
+
+}

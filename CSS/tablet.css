@@ -1,0 +1,221 @@
+@media only screen and (min-width: 601px) and (max-width : 1200px) {
+
+    .menu {
+        padding: 20px 10px;
+        align-items: center;
+    }
+
+    .menu-2 {
+        display: none !important;
+    }
+
+    .logo-1 {
+        width: 100px;
+        align-items: center;
+    }
+
+    .logo-2 {
+        align-items: center;
+    }
+
+    .footer .logo-2 {
+        width: 0;
+        display: none;
+    }
+
+    .inicio {
+        padding-top: 30px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .slider {
+        padding-top: 50px !important;
+        flex-direction: column;
+    }
+
+    .slider-txt {
+        margin-left: 0 !important;
+        width: 90% !important;
+        text-align: center !important;
+        margin-bottom: 50px !important;
+    }
+
+    .slider-txt h1 {
+        font-size: 50px !important;
+    }
+
+    .btn-1 {
+        padding: 10px 25px !important;
+        font-size: 14px;
+    }
+
+    .slider-img {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .slider-img img {
+        width: 90% !important;
+        max-width: 600px !important;
+        margin-right: 0px !important;
+    }
+
+    .slider iframe {
+        width: 80% !important;
+        max-width: 600px !important;
+        height: 290px !important;
+    }
+
+    .swiper-slide {
+        width: 100% !important;
+        padding-bottom: 0% !important;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets,
+    .swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -5px !important;
+    }
+
+    /* Estilos para la sección de productos */
+    .tabs {
+        padding: 50px 30px !important;
+    }
+
+    .tabs label {
+        width: 33% !important;
+        margin-bottom: 10px !important;
+    }
+
+    .info {
+        padding: 30px !important;
+        flex-direction: column;
+    }
+
+    .info-img {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .info-img img {
+        width: 400px;
+        height: 200px;
+        margin-bottom: 25px;
+    }
+
+    .info-txt {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .info-txt h2 {
+        font-size: 50px !important;
+        align-items: center;
+    }
+
+    .horario {
+        padding: 30px !important;
+        text-align: center !important;
+    }
+
+    .horario-info h2 {
+        font-size: 50px !important;
+    }
+
+    .horario-txt h4 {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+    
+    .horario-txt p {
+        font-size: 14px !important;
+    }
+
+    .footer {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .social img {
+        margin: 8px 0 0 0 !important;
+    }
+
+    .servicios {
+        padding-top: 200px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .servicios-info {
+        width: 90% !important;
+        flex-direction: column !important;
+    }
+
+    .redes {
+        padding-top: 220px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .redes-info {
+        width: 90% !important;
+        flex-direction: column !important;
+    }
+
+    .redes-info iframe {
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    .mapas {
+        padding-top: 220px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .mapas-info h2 {
+        margin-bottom: 15px;
+    }
+
+    .CLHip {
+        width: 80% !important;
+        max-width: 350px;
+        height: 80px !important;
+        text-align: center;
+        border-radius: 50px !important;
+        font-weight: 700 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .CLFrame {
+        width: calc(100% - 40px) !important;
+        max-width: 600px !important;
+        margin: 20px 20px !important;
+    }
+
+    .CLFrame iframe {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .info-sede {
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .info-sede p {
+        font-size: 16px;
+    }
+
+    .contacto {
+        padding-top: 220px !important;
+    }
+
+    .intranet {
+        padding-top: 300px !important;
+    }
+}
