@@ -505,7 +505,7 @@ body {
 
 .contact-form button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #DB241B;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -513,7 +513,7 @@ body {
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: #AB1C15;
 }
 
 .info-txt h5 {
